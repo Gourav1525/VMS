@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\Projects\VegetableApp\FinalApp\app.jar</jar>
+  <outfile>D:\Projects\VegetableApp\FinalApp\app.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <classPath>
+    <mainClass>vegetabletrading.HomePage</mainClass>
+    <cp>app.jar</cp>
+    <cp>lib/*</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>true</requires64Bit>
+    <minVersion>1.8</minVersion>
+    <maxVersion></maxVersion>
+    <opt>-Djava.library.path=lib</opt>
+  </jre>
+</launch4jConfig>
